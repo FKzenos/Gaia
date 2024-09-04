@@ -1,0 +1,67 @@
+.project-overview-container {
+    text-align: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #8fb61c; /* Couleur de fond cohérente avec Home */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    color: #294402; /* Couleur de texte cohérente avec Home */
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #260d00; /* Couleur de texte cohérente avec Home */
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .overview-image {
+    width: 250px; /* Fixe la largeur de l'image */
+    height: 150px; /* Fixe la hauteur de l'image */
+    object-fit: cover; /* Assure que l'image couvre la zone sans déformation */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .overview-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-container {
+    margin-top: 30px;
+  }
+  
+  .return-home-button {
+    background-color: #516b0a; /* Couleur verte pour le bouton */
+    color: white; /* Texte en blanc */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .return-home-button:hover {
+    background-color: #8fb61c; /* Couleur plus claire pour l'effet hover */
+    transform: scale(1.05);
+  }
+  

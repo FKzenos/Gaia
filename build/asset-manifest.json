@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Gaia.git/static/css/main.57bf71ff.css",
+    "main.js": "/Gaia.git/static/js/main.e395e4d0.js",
+    "static/js/453.c7bed203.chunk.js": "/Gaia.git/static/js/453.c7bed203.chunk.js",
+    "static/media/background.jpg": "/Gaia.git/static/media/background.f79ecce8b6c1f54c7eac.jpg",
+    "index.html": "/Gaia.git/index.html",
+    "main.57bf71ff.css.map": "/Gaia.git/static/css/main.57bf71ff.css.map",
+    "main.e395e4d0.js.map": "/Gaia.git/static/js/main.e395e4d0.js.map",
+    "453.c7bed203.chunk.js.map": "/Gaia.git/static/js/453.c7bed203.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57bf71ff.css",
+    "static/js/main.e395e4d0.js"
+  ]
+}

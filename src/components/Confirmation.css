@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('imageSrc/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #516b0a; /* Couleur de secours */
+}
+
+
+.confirmation-container {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #8fb61c;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    font-size: 2.5rem;
+    color: #294402;
+    margin-bottom: 20px;
+}
+
+.confirmation-message {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.captured-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.no-photo {
+    font-size: 1.2rem;
+    color: #260d00;
+}
+
+.plant-advice-section {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.advice-title {
+    font-size: 1.8rem;
+    color: #516b0a;
+    margin-bottom: 15px;
+}
+
+.advice-text {
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+.advice-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.back-button {
+    background-color: #516b0a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #8fb61c;
+    transform: translateY(-2px);
+}

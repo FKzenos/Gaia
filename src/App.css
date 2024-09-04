@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4a90e2;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.confirmation-message {
+  margin-top: 20px;
+  color: #28a745;
+  font-size: 18px;
+}
